@@ -1,7 +1,4 @@
 spring:
-  application:
-    name: Auth-Service
-
 boot:
     admin:
       client:
@@ -9,9 +6,10 @@ boot:
       
    
    datasource:
-    url: jdbc:mysql://localhost:3306/ashokit_ecom
+   
     username: root 
     password: Amruta@123
+     url: jdbc:mysql://localhost:3306/ashokit_ecom
 
    jpa:
     hibernate:
