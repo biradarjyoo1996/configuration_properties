@@ -12,6 +12,11 @@ boot:
     url: jdbc:mysql://localhost:3306/ashokit_ecom
     username: root 
     password: Amruta@123
+
+   jpa:
+    hibernate:
+    ddl-auto: update
+    show-sql: true
    
 management:
   endpoints:
