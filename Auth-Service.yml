@@ -1,12 +1,24 @@
 spring:
-  datasource:
+  application:
+    name: Auth-Service
+
+boot:
+    admin:
+      client:
+        url:http://localhost:1111/
+      
+   
+   datasource:
     url: jdbc:mysql://localhost:3306/ashokit_ecom
     username: root 
     password: Amruta@123
-  jpa:
-    hibernate:
-      ddl-auto: update   
-  server:
-    port:8081
-          
+   
+management:
+  endpoints:
+      web:
+        exposure:
+          include: "*"
+         
+      
+      
       
