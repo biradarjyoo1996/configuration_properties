@@ -1,1 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ashokit_ecom
+    username: root 
+    password: Amruta@123
+    
 
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+  server:
+    port:8081
+          
+      
