@@ -22,6 +22,9 @@ management:
         exposure:
           include: "*"
 
+server:
+    port: 8081
+
          
       
       
