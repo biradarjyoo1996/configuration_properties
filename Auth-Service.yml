@@ -6,10 +6,10 @@ boot:
       
    
    datasource:
-    url: jdbc:mysql://localhost:3306/ashokit_ecom
     username: root 
     password: Amruta@123
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ashokit_ecom
+ 
 
    jpa:
     hibernate:
