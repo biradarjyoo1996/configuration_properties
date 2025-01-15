@@ -4,6 +4,9 @@ spring:
       client:
         url: http://localhost:1111 
 
+          profiles:
+    active: auth-service
+
 
   datasource:
     username: root
